@@ -1,0 +1,136 @@
+.open{
+    animation: open 1s 1 forwards ;
+}
+@keyframes open {
+    0%{
+        transform:scale(0);
+    }
+    /* 60%{
+        transform:scale(1);
+    } */
+    /* 75%{
+        transform:scale(.8);
+    } */
+    100%{
+        transform:scale(1);
+    }
+}
+.open{
+    z-index: 99999;
+}
+
+.sec2-height{
+    height: 170vh;
+}
+.sec4-height{
+    height: 270vh;
+}
+
+
+#section1 {
+    background-image: url(./IMG/box/新一代圖_工作區域\ 1\ 1.jpg);
+ /* 無用紙箱 背景圖 */
+    position: sticky;
+    top: 0;
+}
+
+#section2 {
+    background-color: white;
+    /* position: sticky; */
+    padding:400px 0 400px 0 ;
+    height: 1000px;
+    top: 0;
+    
+}
+#flow{
+    transition:1s;
+}
+#section2 p{
+   line-height: 1;
+}
+#section2 p:nth-child(5){
+    margin-bottom: 30px;
+}
+#section2 .section-image img{
+    width: 30%;
+    font-size: 0;
+}
+#section2 .box img:nth-child(2){
+    height: 55%;
+}
+#section2 .name{
+    font-size: 80px;
+    opacity: .1;
+    font-weight: bold;
+}
+#section3 {
+    transition: 1s;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    height: 500px;
+    /* margin: 0 -100px; */
+    scroll-snap-type: y mandatory;
+}
+#section3 img{
+    scroll-snap-align: start;
+}
+
+#section4 {
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+.box img{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.box .dir{
+        width: calc(100% - 30px);
+        height: 100%;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        left: 15px;
+        opacity: .5;
+        display: none;
+        cursor: pointer;
+        border-radius: 10px;
+
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+}
+.box .dir p{
+    color: aliceblue;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.b-1:hover, .b-2:hover, .b-3:hover,
+.b-4:hover, .b-5:hover, .b-6:hover,
+.b-7:hover, .b-8:hover, .b-9:hover,
+.b-10:hover, .b-11:hover, .b-12:hover,
+.b-13:hover, .b-14:hover, .b-15:hover,
+.b-16:hover, .b-17:hover, .b-18:hover,
+.b-19:hover, .b-20:hover, .b-21:hover
+{
+    transform: scale(1.2);
+    transition: 1s;
+    position: relative;
+    z-index: 99;
+}
+.b-1:hover .dir,.b-2:hover .dir , .b-3:hover .dir,
+.b-4:hover .dir,.b-5:hover .dir , .b-6:hover .dir,
+.b-7:hover .dir,.b-8:hover .dir , .b-9:hover .dir,
+.b-10:hover .dir,.b-11:hover .dir , .b-12:hover .dir,
+.b-13:hover .dir,.b-14:hover .dir , .b-15:hover .dir,
+.b-16:hover .dir,.b-17:hover .dir , .b-18:hover .dir,
+.b-19:hover .dir,.b-20:hover .dir , .b-21:hover .dir
+{
+    display: block;
+
+}

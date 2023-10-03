@@ -1,0 +1,80 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+.section h2 {
+    font-size: 2rem;
+}
+
+.section p {
+    font-size: 1.2rem;
+}
+
+.section-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+#section1 {
+    background-image: url('./IMG/pataauw/01.png');
+    position: sticky;
+    top: 0;
+    animation: big 20s backwards infinite;
+}
+    @keyframes big{
+        0%{
+            background-size: 100%;
+        }
+        50%{
+            background-size: 200%;
+        }
+        100%{
+            background-size: 100%;
+        }
+    }
+
+#section2 {
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+/* #section2 h2{ */
+/* 
+    border:1px solid #ccc;
+    border-radius: 10px; */
+    /* width: 500px; */
+/* } */
+#section3 {
+    /* background-image: url('https://picsum.photos/192/108?grayscale=3'); */
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+}
+
+#section4 {
+    background-image: url('./IMG/pataauw/footer.png'); 
+    /* background-size:100%; */
+    /* background-color: rgba(9, green, blue, 1); */
+    background-repeat: no-repeat;
+    position: sticky;
+    top: 0;
+    animation: e 10s backwards infinite;
+    background-origin: center center
+    ;
+}
+    @keyframes e{
+        0%{
+            background-size: 300%;
+        }
+        50%{
+            background-size: 400%;
+        }
+        100%{
+            background-size: 300%;
+        }
+    }
+
+

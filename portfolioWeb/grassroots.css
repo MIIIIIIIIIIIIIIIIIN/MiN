@@ -1,0 +1,88 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.main_1{
+    background-color: #BF9242;
+    color: aliceblue;
+    border-radius: 30px;
+   
+}
+@keyframes w1{
+    0%{
+        width: 0;
+        background-color: #fff;
+    }
+    80%{
+        width: 100%;
+        background-color: #BF9242;
+    }
+}
+.main_2{
+    background-color: #455241;
+    color: aliceblue;
+    border-radius: 30px;
+    /* animation: w2 10s 5s infinite forwards; */
+}
+@keyframes w2{
+    0%{
+        width: 0;
+        background-color: #fff;
+    }
+    100%{
+        width: 100%;
+        background-color: #455241;
+    }
+}
+.section h2 {
+    font-size: 2rem;
+}
+
+.section p {
+    font-size: 1.2rem;
+}
+
+.section-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+#section1 {
+    background-image: url('./IMG/grassroot/bg.png');
+    position: sticky;
+    top: 0;
+}
+
+#section2 {
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+#section3 {
+    background-image: url('./IMG/grassroot/2.png');
+    background-size: 200%;
+    background-position-x: -900px;
+
+    position: sticky;
+    top: 0;
+}
+#section3 h2{
+    /* backdrop-filter: blur(5px);  */
+    /* height: 200px; */
+    /* border-bottom: 1px solid white; */
+    margin-bottom: 200px;
+    /* padding-bottom: 30px; */
+    /* background-color: #ccc; */
+    font-size: 18px;
+
+    
+}
+#section4 {
+    /* background-color: white; */
+    position: static;
+    top: 0;
+    backdrop-filter: blur(5px);
+}

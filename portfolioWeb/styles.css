@@ -1,0 +1,116 @@
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;200;300;400;500;600;800;900&display=swap');
+  
+*{
+    transition: 1s;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+  html{
+    scroll-behavior: smooth;
+}
+  body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans TC', sans-serif;
+    pointer-events: auto;
+    
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    color: black;
+    background-size: cover;
+    background-position: center;
+}
+
+.section h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+.section p {
+    font-size: 1rem;
+    color: #000;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+.section-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.boderbottomS{
+    border-bottom: 20px solid transparent!important;
+}
+.boderbottomM{
+    border-bottom: 60px solid transparent!important;
+}
+.boderbottomL{
+    border-bottom: 100px solid transparent!important;
+}
+
+.nav-link{
+    padding-right:0.8rem!important;
+    padding-left:0.8rem!important;
+    border-bottom: 1px solid white;
+}
+.nav-link:hover{
+    font-weight: bold !important ;
+    border-bottom: 1px solid black;
+}
+.nav-center{
+    justify-content: center;    
+}
+.nav-color {
+    background-color: #ffffff!important;
+}
+.a-top{
+    text-decoration: none !important;
+    color: rgb(28, 28, 28)!important;
+    display: inline-block;
+    width: 55px;
+    text-align: center;
+    padding: 10px 5px;
+    display: block;
+    cursor: pointer !important;
+    border-radius: 5px;
+    z-index: 99999;
+    position: fixed !important;
+    pointer-events: all;
+    bottom: 20px;
+    left: 20px;
+    background-color: white !important;
+    transition: .5s;
+}
+.a-top:hover{
+    color: rgb(0, 255, 76)!important;
+    background-color: black;
+}
+/* .topButton{
+    cursor: pointer;
+    bottom: 20px;
+    left: 20px;
+    background-color: white;
+    border: none;
+    padding: 10px px;
+    border-radius: 5px;
+    position: fixed;
+    
+}
+.topButton:hover {
+    background-color: black;
+} */

@@ -1,0 +1,43 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+.section h2 {
+    font-size: 2rem;
+}
+
+.section p {
+    font-size: 1.2rem;
+}
+
+.section-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+#section1 {
+    background-image: url('https://picsum.photos/192/108?grayscale=1');
+    position: sticky;
+    top: 0;
+}
+
+#section2 {
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+#section3 {
+    background-image: url('https://picsum.photos/192/108?grayscale=3');
+    position: sticky;
+    top: 0;
+}
+
+#section4 {
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
